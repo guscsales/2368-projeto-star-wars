@@ -16,5 +16,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // Para desativar validação de propriedades
+    // 'react/prop-types': 0,
   },
-}
+};

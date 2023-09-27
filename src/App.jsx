@@ -1,9 +1,12 @@
-function App() {
+import Button from './components/Button';
+
+export default function App() {
   return (
-    <>
-      <h1 className="text-blue-200 text-5xl">Olá mundo!</h1>
-    </>
+    <div className="flex gap-2 p-10">
+      <Button type="submit">Pesquisar</Button>
+      <Button type="button" variant="ghost">
+        Voltar
+      </Button>
+    </div>
   );
 }
-
-export default App;
