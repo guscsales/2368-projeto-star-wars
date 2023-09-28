@@ -8,10 +8,10 @@ export default function Button({
   ...props
 }) {
   const defaultClassName = classNames(
-    'rounded font-bold px-3 py-2',
+    'btn',
     {
-      'bg-blue-400 hover:bg-blue-500 text-white': variant === 'primary',
-      'border border-solid border-blue-400 text-blue-400': variant === 'ghost',
+      'btn-primary': variant === 'primary',
+      'btn-ghost': variant === 'ghost',
     },
     className
   );

@@ -1,0 +1,6 @@
+.Heading {
+  @apply font-bold
+    text-gray-900
+    text-4xl
+    lg:text-5xl;
+}
